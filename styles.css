@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #FFFBFF;
+	font-family: 'Open San', sans-serif;
+	overflow: hidden;
+	background-image: url(http://subtlepatterns.com/patterns/nice_snow.png);
+	background-repeat: auto;
+}
+img.artimg{
+	height: 125px;
+	width: 200px;
+	font-weight: bold;
+	border: 3px solid #333333;
+	border-radius: 138px;
+}
+
+div.arthead{
+	height: 125px;
+	width: auto;
+}
+
+.text{
+	width: 200px;
+	height: 125px;
+	background: #FFF;
+	opacity: 0;
+}
+
+.artimg:hover .text{
+ 	opacity:0.6;
+ 	text-align:justify;
+ 	color:#000000;
+ 	font-size:16px;
+ 	font-weight:70;
+ 	font-family:"Arial", Times, serif;
+ 	padding:0px;
+ }
+
+canvas {
+  width:  window.innerWidth;
+  height: window.innerHeight;
+  margin: 0px;
+}
